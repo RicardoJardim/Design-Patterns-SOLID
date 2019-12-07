@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.exe.config
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Abstract Factory\Abstract Factory\bin\Debug\Abstract Factory.pdb
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.pdb

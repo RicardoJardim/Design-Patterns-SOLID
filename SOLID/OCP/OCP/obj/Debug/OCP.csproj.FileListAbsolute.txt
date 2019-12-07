@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Exer\OCP\OCP\obj\Debug\OCP.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Exer\OCP\OCP\bin\Debug\OCP.exe.config
+D:\Universidade\MEI-1\DIS\Exer\OCP\OCP\bin\Debug\OCP.exe
+D:\Universidade\MEI-1\DIS\Exer\OCP\OCP\bin\Debug\OCP.pdb
+D:\Universidade\MEI-1\DIS\Exer\OCP\OCP\obj\Debug\OCP.exe
+D:\Universidade\MEI-1\DIS\Exer\OCP\OCP\obj\Debug\OCP.pdb

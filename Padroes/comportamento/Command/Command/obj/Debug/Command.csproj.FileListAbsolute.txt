@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Command\Command\bin\Debug\Command.exe.config
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Command\Command\bin\Debug\Command.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Command\Command\bin\Debug\Command.pdb
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Command\Command\obj\Debug\Command.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Command\Command\obj\Debug\Command.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Command\Command\obj\Debug\Command.pdb

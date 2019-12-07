@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Adapter\Adapter\bin\Debug\Adapter.exe.config
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Adapter\Adapter\bin\Debug\Adapter.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Adapter\Adapter\bin\Debug\Adapter.pdb
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Adapter\Adapter\obj\Debug\Adapter.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Adapter\Adapter\obj\Debug\Adapter.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Adapter\Adapter\obj\Debug\Adapter.pdb

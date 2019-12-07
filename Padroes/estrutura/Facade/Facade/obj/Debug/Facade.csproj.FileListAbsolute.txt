@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Facade\Facade\bin\Debug\Facade.exe.config
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Facade\Facade\bin\Debug\Facade.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Facade\Facade\bin\Debug\Facade.pdb
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Facade\Facade\obj\Debug\Facade.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Facade\Facade\obj\Debug\Facade.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Facade\Facade\obj\Debug\Facade.pdb
