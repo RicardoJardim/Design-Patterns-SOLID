@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace LSP
 {
-    interface IEmployee
+    public interface IEmployee
     {
         int ID { get; set; }
         string Name { get; set; }
         decimal GetMinimumSalary();
+    }
+
+    public interface IEmployeeBonus
+    {
+        decimal CalculteBonus(decimal salary);
     }
 }

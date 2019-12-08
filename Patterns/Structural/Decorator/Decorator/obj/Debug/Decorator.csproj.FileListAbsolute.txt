@@ -4,3 +4,9 @@ D:\Universidade\MEI-1\DIS\Exer\Padroes\estrutura\Decorator\Decorator\bin\Debug\D
 D:\Universidade\MEI-1\DIS\Exer\Padroes\estrutura\Decorator\Decorator\obj\Debug\Decorator.csprojAssemblyReference.cache
 D:\Universidade\MEI-1\DIS\Exer\Padroes\estrutura\Decorator\Decorator\obj\Debug\Decorator.exe
 D:\Universidade\MEI-1\DIS\Exer\Padroes\estrutura\Decorator\Decorator\obj\Debug\Decorator.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Structural\Decorator\Decorator\bin\Debug\Decorator.exe.config
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Structural\Decorator\Decorator\bin\Debug\Decorator.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Structural\Decorator\Decorator\bin\Debug\Decorator.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Structural\Decorator\Decorator\obj\Debug\Decorator.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Structural\Decorator\Decorator\obj\Debug\Decorator.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Structural\Decorator\Decorator\obj\Debug\Decorator.pdb

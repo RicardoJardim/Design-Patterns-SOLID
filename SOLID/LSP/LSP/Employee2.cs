@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LSP
 {
-    //NAO IMPLEMENTA A LSP
+  
+    //DESTE MODO A CLASSE ABSTRATA IMPLEMENTA O IEMPLOYEE E BONUS
+    //CONTINUA A RESPEITAR O PRINCIPIO ABERTO/FECHADO
     public abstract class Employee2 : IEmployee, IEmployeeBonus
     {
         public int ID { get; set; }
@@ -24,16 +26,12 @@ namespace LSP
 
         //Permite adicionar futuras alterações sem alterar o codigo
         public abstract decimal CalculteBonus(decimal salary);
-
+        public abstract decimal GetMinimumSalary();
 
         public override string ToString()
         {
             return string.Format("ID : {0} Name : {1}", this.ID, this.Name);
         }
-
-        public abstract decimal GetMinimumSalary();
-
-
     }
 
     public class PermeneteEmployee : Employee2

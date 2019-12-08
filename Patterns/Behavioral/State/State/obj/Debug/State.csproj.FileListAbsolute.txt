@@ -4,3 +4,9 @@ D:\Universidade\MEI-1\DIS\Exer\Padroes\State\State\bin\Debug\State.pdb
 D:\Universidade\MEI-1\DIS\Exer\Padroes\State\State\obj\Debug\State.csprojAssemblyReference.cache
 D:\Universidade\MEI-1\DIS\Exer\Padroes\State\State\obj\Debug\State.exe
 D:\Universidade\MEI-1\DIS\Exer\Padroes\State\State\obj\Debug\State.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\State\State\bin\Debug\State.exe.config
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\State\State\bin\Debug\State.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\State\State\bin\Debug\State.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\State\State\obj\Debug\State.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\State\State\obj\Debug\State.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\State\State\obj\Debug\State.pdb

@@ -4,3 +4,9 @@ D:\Universidade\MEI-1\DIS\Exer\Padroes\TemplateMethod\TemplateMethod\bin\Debug\T
 D:\Universidade\MEI-1\DIS\Exer\Padroes\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.csprojAssemblyReference.cache
 D:\Universidade\MEI-1\DIS\Exer\Padroes\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.exe
 D:\Universidade\MEI-1\DIS\Exer\Padroes\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\TemplateMethod\TemplateMethod\bin\Debug\TemplateMethod.exe.config
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\TemplateMethod\TemplateMethod\bin\Debug\TemplateMethod.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\TemplateMethod\TemplateMethod\bin\Debug\TemplateMethod.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Behavioral\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.pdb

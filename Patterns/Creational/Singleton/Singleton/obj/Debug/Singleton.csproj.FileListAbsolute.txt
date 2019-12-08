@@ -4,3 +4,9 @@ D:\Universidade\MEI-1\DIS\Exer\Padroes\Singleton\Singleton\bin\Debug\Singleton.p
 D:\Universidade\MEI-1\DIS\Exer\Padroes\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
 D:\Universidade\MEI-1\DIS\Exer\Padroes\Singleton\Singleton\obj\Debug\Singleton.exe
 D:\Universidade\MEI-1\DIS\Exer\Padroes\Singleton\Singleton\obj\Debug\Singleton.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Creational\Singleton\Singleton\bin\Debug\Singleton.exe.config
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Creational\Singleton\Singleton\bin\Debug\Singleton.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Creational\Singleton\Singleton\bin\Debug\Singleton.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Creational\Singleton\Singleton\obj\Debug\Singleton.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Creational\Singleton\Singleton\obj\Debug\Singleton.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\Patterns\Creational\Singleton\Singleton\obj\Debug\Singleton.pdb

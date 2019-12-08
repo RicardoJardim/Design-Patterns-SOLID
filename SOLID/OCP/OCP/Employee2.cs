@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OCP
 {
+    //CLASSE ABSTRATA DE EMPLOYEE
     public abstract class Employee2
     {
         public int ID { get; set; }
@@ -25,7 +26,7 @@ namespace OCP
 
         }
 
-        //Permite adicionar futuras alterações sem alterar o codigo
+        //PERMITE REALIZAR FUTURAS ALTERAÇÕES
         public abstract decimal CalculateBonus(decimal salary);
 
 
@@ -35,6 +36,7 @@ namespace OCP
         }
     }
 
+    //CADA EMPLOYEE TEM O SEU BONUS
     public class PermeneteEmployee : Employee2
         {
             public PermeneteEmployee()
@@ -50,6 +52,7 @@ namespace OCP
                 return salary * 2;
             }
         }
+    //
     public class TempEmployee : Employee2
     {
         public TempEmployee()

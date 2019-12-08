@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\SOLID\SRP\SRP\bin\Debug\SRP.exe.config
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\SOLID\SRP\SRP\bin\Debug\SRP.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\SOLID\SRP\SRP\bin\Debug\SRP.pdb
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\SOLID\SRP\SRP\obj\Debug\SRP.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\SOLID\SRP\SRP\obj\Debug\SRP.exe
+D:\Universidade\MEI-1\DIS\Design-Patterns-SOLID\SOLID\SRP\SRP\obj\Debug\SRP.pdb

@@ -96,6 +96,11 @@ namespace TemplateMethod
             Console.WriteLine("Same client code can work with different subclasses:");
             Client.ClientCode(new ClassConcreta2());
             Console.ReadLine();
+
+            AbstractCaminho carro = new carro();
+            carro.TemplateMethod();
+            Console.ReadLine();
+
         }
     }
 }

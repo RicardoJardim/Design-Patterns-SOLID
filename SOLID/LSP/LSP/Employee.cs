@@ -27,6 +27,7 @@ namespace LSP
         }
 
         //Permite adicionar futuras alterações sem alterar o codigo
+        //PRINCIPIO ABERTO/FECHADO
         public abstract decimal CalculateBonus(decimal salary);
 
 
@@ -75,7 +76,8 @@ namespace LSP
         {
            
         }
-        //NAO RESPEITA POR TAR A DAR EXCEPTION
+        //CASO UMA DAS SUBCLASSES NAO IMPLEMENTE ESTE MÉTODO 
+        //NAO PRESPEITA O PRINCIPIO DE LISKOV
         public override decimal CalculateBonus(decimal salary)
         {
             throw new NotImplementedException();

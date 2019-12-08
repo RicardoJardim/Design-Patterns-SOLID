@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ISP
 {
-    //Interfaces com tudo obriga as classes implementarem todos 
-    //os metodos
+    //INTERFACE COM TUDOS OS METODOS OBRIGA AS CLASSES A 
+    //IMPLEMENTAREM TODOS ESTES
     interface IPrintTask
     {
         bool PrintContent(string content);
@@ -16,8 +16,8 @@ namespace ISP
 
     }
 
-    //Principio mostra que devemos obrigar a implementação 
-    //apenas do metodos necessários
+    //PRINCIPIO DE SEGREGAÇÃO DE INTERFACES
+    //MOSTRA QUE DEVEMOS OBRIGAR A IMPLEMENTAR APENAS OS METODOS NECESSÁRIOS
     interface IFaxContent
     {
         bool FaxContent(string content);

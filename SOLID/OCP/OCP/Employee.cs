@@ -25,8 +25,8 @@ namespace OCP
             this.EmployeeType = employeeType;
         }
 
-        //Nao segue o principio do aberto e fechado
-        //Nao permite futuras alterações
+        //NAO SEGUE O PRINCIPIO ABERTO/FECHADO
+        //NAO PERMITE FUTURAS ALTERAÇÕES
         public decimal CalculateBonus(decimal salary)
         {
             if (this.EmployeeType == "Permanent")
