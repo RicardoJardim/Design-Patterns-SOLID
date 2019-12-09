@@ -3,7 +3,9 @@
     "",
     "\\Behavioral",
     "\\Behavioral\\State",
-    "\\Structural"
+    "\\Behavioral\\State\\State",
+    "\\Creational",
+    "\\Creational\\Factory Method"
   ],
   "SelectedNode": "\\Behavioral\\State\\State.sln",
   "PreviewInSolutionExplorer": false

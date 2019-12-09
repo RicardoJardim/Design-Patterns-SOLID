@@ -9,7 +9,7 @@ namespace Singleton
 {
     public sealed class Singleton
     {
-        //CRIA ESTA CLASSE UNCIA UTILIZANDO O CLASS INSTANCE
+        //CRIA ESTA CLASSE UNICA UTILIZANDO O CLASS INSTANCE
          static Singleton instance = new Singleton();
 
          static Singleton() { }
