@@ -81,7 +81,7 @@ namespace Iterator
     //CLASSE COM A COLEÇÃO DE DADOS 
     public class WordsCollection : Aggregate
     {
-        List<string> _collection = new List<string>();
+        private List<string> _collection = new List<string>();
 
         private bool _direction = false;
 

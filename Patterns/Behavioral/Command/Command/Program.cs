@@ -1,128 +1,152 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Command
 {
-    //INTERFACE COMMAND -> REPRESENTAÇÃO DE UM CONJUNTO DE COMMANDOS
     public interface ICommand
     {
-        //FUNCÇÃO PERTENCE A TODOS OS COMANDOS
         void Execute();
-        //TAMBEM PODERIA TER O undo(), redo(), save()
+       
     }
 
-    //EXEMPLO DE UM COMANDO SIMPLES APENAS COM UM PAYLOAD
-    public class ConcreteCommand : ICommand
+    public interface ICommandUndo
     {
-        private string _payload = "";
+        void Undo();
+        void Redo();
+    }
 
-        public ConcreteCommand(string payload)
+    public class TaskManager : ICommandUndo
+    {
+
+        private Stack<ICommand> UndoList = new Stack<ICommand>();
+        private Stack<ICommand> RedoList = new Stack<ICommand>();
+
+        public void Redo()
         {
-            this._payload = payload;
+
+            var ele = RedoList.Peek();
+            ele.Execute();
+            UndoList.Push(ele);
+            RedoList.Pop();
+
         }
-        public void Execute()
+        public void Undo()
         {
-            Console.WriteLine($"ConcreteCommand: See, I can do simple things like printing ({_payload})");
+           
+            var ele = UndoList.Peek();
+            ele.Execute();
+            RedoList.Push(ele);
+            UndoList.Pop();
+
+        }
+
+        public void AddCommand(ICommand command)
+        {
+            UndoList.Push(command);
+            Console.WriteLine(UndoList.Count);
         }
     }
 
-    //EXEMPLO DE UM COMANDO COMPLEXO COM UM RECEIVER E PAYLOAD
     public class ComplexCommand : ICommand
     {
-        private Receiver _receiver;
-        // Context data, required for launching the receiver's methods.
-        private string _a;
-        private string _b;
+        private Receiver mReceiver;
+        private string a;
+        private string b;
 
-        public ComplexCommand(Receiver receiver, string a, string b)
+        private TaskManager manager;
+
+        public ComplexCommand(Receiver aReceiver, TaskManager taskManager, string aA, string bB)
         {
-            this._receiver = receiver;
-            this._a = a;
-            this._b = b;
+            manager = taskManager;
+            mReceiver = aReceiver;
+            a = aA;
+            b = bB;
         }
-
-        //EXECUTA A AÇÃO DO RECEIVER INDIRETAMENTE 
         public void Execute()
         {
-            Console.WriteLine("ComplexCommand: Complex stuff should be done by a receiver object.");
-            this._receiver.action(this._a);
-            this._receiver.actionElse(this._b);
+            Console.WriteLine("Complex Command will execute action A");
+            mReceiver.actionA("Complex Command " + a);
+
+            Console.WriteLine("Complex Command will execute action A");
+            mReceiver.actionB("Complex Command " + b);
+
+            manager.AddCommand(this);
+        }
+
+
+    }
+
+    public class SimpleCommand : ICommand
+    {
+        private string mParameter;
+        public SimpleCommand(string parms)
+        {
+            mParameter = parms;
+        }
+        public void Execute()
+        {
+            Console.WriteLine($"Simple Command says {mParameter}");
         }
     }
 
-    //RECIVER QUE CONTEM UM CONJUNTO DE AÇÕES
     public class Receiver
     {
-        public void action(string a)
+        public void actionA(string a)
         {
-            Console.WriteLine($"Receiver: Working on ({a}.)");
+            Console.WriteLine($"Action A from {a}");
+        }
+        public void actionB(string b)
+        {
+            Console.WriteLine($"Action b {b}");
         }
 
-        public void actionElse(string b)
-        {
-            Console.WriteLine($"Receiver: Also working on ({b}.)");
-        }
     }
 
-    //CONJUNTO DOS COMANDOS COM ALGORITMO PARA APLICAR OS COMANDOS
     public class Invoker
     {
-        //COMANDO PARA O INICO
         private ICommand _onStart;
-        //COMANDO PARA O FIM
-        private ICommand _onFinish;
+        private ICommand _onEnd;
 
-        //INICIALIZA OS COMANDOS
         public void SetOnStart(ICommand command)
         {
-            this._onStart = command;
+            _onStart = command;
         }
-        public void SetOnFinish(ICommand command)
+        public void SetOnEnd(ICommand command)
         {
-            this._onFinish = command;
+            _onEnd = command;
         }
-        // O INVOKER NAO DEPENDE DO CONCRETE COMMAND NEM DO RECEIVER
-        // O INVOKER PASSA UMA SOLICITAÇÃO PARA UM RECEIVER INDIRETAMENTE, EXECUTANDO UM COMANDO
+
         public void SetCommand()
         {
-            Console.WriteLine("Invoker: Does anybody want something done before I begin?");
-            if (this._onStart is ICommand)
-            {
-                this._onStart.Execute();
-            }
-
-            Console.WriteLine("Invoker: ...doing something really important...");
-
-            Console.WriteLine("Invoker: Does anybody want something done after I finish?");
-            if (this._onFinish is ICommand)
-            {
-                this._onFinish.Execute();
-            }
+            Console.WriteLine("Starting execution");
+            _onStart.Execute();
+            _onEnd.Execute();
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            //INSTANCIA O INVOCAR
             Invoker invoker = new Invoker();
 
+            TaskManager task = new TaskManager();
+
             //REALIZA NO INICO O CONCRETE COMANDO 
-            invoker.SetOnStart(new ConcreteCommand("Say Hi!"));
-            
+            invoker.SetOnStart(new SimpleCommand("Say Hi!"));
+
             //INSTANCIA O RECEIVER PARA O INVOKER
             Receiver receiver = new Receiver();
 
             //REALIZA NO FIM O COMPLEX COMANDO 
-            invoker.SetOnFinish(new ComplexCommand(receiver, "Send email", "Save report"));
+            invoker.SetOnEnd(new ComplexCommand(receiver, task, "Send email", "Save report"));
 
             //REALIZA AS FUNÇÕES
             invoker.SetCommand();
 
+            task.Redo();
             Console.ReadLine();
         }
     }

@@ -1,0 +1,6 @@
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Memento\Memento\bin\Debug\Memento.exe.config
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Memento\Memento\bin\Debug\Memento.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Memento\Memento\bin\Debug\Memento.pdb
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Memento\Memento\obj\Debug\Memento.csprojAssemblyReference.cache
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Memento\Memento\obj\Debug\Memento.exe
+D:\Universidade\MEI-1\DIS\Exer\Padroes\Memento\Memento\obj\Debug\Memento.pdb

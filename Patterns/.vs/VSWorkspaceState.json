@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Behavioral",
-    "\\Behavioral\\State",
-    "\\Behavioral\\State\\State",
-    "\\Creational",
-    "\\Creational\\Factory Method"
+    "\\Behavioral\\Iterator",
+    "\\Structural"
   ],
-  "SelectedNode": "\\Behavioral\\State\\State.sln",
+  "SelectedNode": "\\Behavioral\\Iterator\\Iterator.sln",
   "PreviewInSolutionExplorer": false
 }
