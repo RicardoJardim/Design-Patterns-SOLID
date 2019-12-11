@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\Behavioral",
-    "\\Behavioral\\Iterator",
-    "\\Structural"
+    "\\Behavioral\\Iterator"
   ],
   "SelectedNode": "\\Behavioral\\Iterator\\Iterator.sln",
   "PreviewInSolutionExplorer": false

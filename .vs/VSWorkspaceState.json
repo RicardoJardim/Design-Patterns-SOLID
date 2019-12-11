@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Patterns\\Creational",
-    "\\Patterns\\Creational\\Abstract Factory",
-    "\\SOLID",
-    "\\SOLID\\DIP"
+    "\\Patterns",
+    "\\Patterns\\Creational\\Singleton\\Singleton",
+    "\\Patterns\\Structural",
+    "\\Patterns\\Structural\\Decorator"
   ],
-  "SelectedNode": "\\SOLID\\DIP\\DIP.sln",
+  "SelectedNode": "\\Patterns\\Structural\\Decorator\\Decorator.sln",
   "PreviewInSolutionExplorer": false
 }
