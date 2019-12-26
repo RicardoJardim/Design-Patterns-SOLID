@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Behavioral",
-    "\\Behavioral\\Iterator"
+    "\\Creational",
+    "\\Creational\\Singleton"
   ],
-  "SelectedNode": "\\Behavioral\\Iterator\\Iterator.sln",
+  "SelectedNode": "\\Creational\\Singleton\\Singleton.sln",
   "PreviewInSolutionExplorer": false
 }
