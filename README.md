@@ -20,12 +20,14 @@ Os padrões de desenho são soluções abstratas para os problemas comuns de de 
 - Abstract Factory
 - Factory Method
 - Singleton
+
 2.Structural
 - Adapter
 - Composite
 - Decorator
 - Facade
 - Proxy
+
 3.Behavioral
 - Command
 - Iterator
